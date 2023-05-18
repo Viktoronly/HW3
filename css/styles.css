@@ -4,9 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 
-:root {
-    
-}
+:root {}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -95,7 +93,7 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     display: block;
-    min-width: 19px;
+    min-width: 169px;
     height: 56px;
     border: none;
     background-color: #4d5ae5;
@@ -207,6 +205,7 @@ body {
     background-color: #404BBF;
     border: 1px solid transparent;
 }
+
 .footer-paragraph {
     font-weight: 400;
     font-size: 16px;
@@ -215,88 +214,112 @@ body {
     color: #E7E9FC;
     max-width: 264px;
 }
+
 img {
     display: block;
 }
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+
 .header-div {
     display: flex;
 }
+
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .navigation {
     display: flex;
     align-items: center;
 }
+
 .header-menu {
     display: flex;
     gap: 40px;
 }
+
 .contacts-list {
     display: flex;
     gap: 40px;
 }
+
 .principles {
     padding: 120px 0;
 }
+
 .principles-list {
     display: flex;
     gap: 24px;
 }
+
 .principles-list-item {
     width: calc((100% - 72px) / 4);
 }
+
 .activity {
     padding-bottom: 120px;
 }
+
 .activity-list {
     display: flex;
     gap: 24px;
 }
+
 .activity-list-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
+
 .team-list {
     display: flex;
     gap: 24px;
 }
+
 .team-list-item-div {
     padding: 32px 16px;
 }
+
 .team-list-item-header {
     text-align: center;
 }
+
 .team-list-item-paragraph {
     text-align: center;
 }
+
 .buttons {
     padding: 96px 0 120px;
 }
+
 .button-list {
     display: flex;
     justify-content: center;
     column-gap: 24px;
     margin-bottom: 72px;
 }
+
 .examples-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
 }
+
 .examples-list-item {
     width: calc((100% - 48px) / 3);
 }
+
 .examples-list-item-div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
 .examples-list-item-header {
     margin-bottom: 8px;
 }
