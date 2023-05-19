@@ -259,7 +259,6 @@ img {
 
 .principles-list-item {
     width: calc((100% - 72px) / 4);
-    width: 0;
 }
 
 .activity {
